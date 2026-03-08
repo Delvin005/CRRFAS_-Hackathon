@@ -1,0 +1,11 @@
+# Virtual Environment
+env/
+venv/
+.venv/
+
+# Environment Variables
+.env
+.env.local
+
+# Media Files
+media/
