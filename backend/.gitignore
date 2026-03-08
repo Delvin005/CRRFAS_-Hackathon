@@ -1,0 +1,74 @@
+# ── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+
+# ── Virtual Environments ─────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.env/
+.virtualenv/
+
+# ── Django ───────────────────────────────────────────────────────────────────
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Media / collected static files (generated at runtime)
+/media/
+/staticfiles/
+/static_root/
+
+# ── Environment & Secrets ────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Distribution / Packaging ─────────────────────────────────────────────────
+build/
+dist/
+*.egg-info/
+*.egg
+MANIFEST
+
+# ── Testing & Coverage ───────────────────────────────────────────────────────
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+nosetests.xml
+test-results/
+
+# ── Type checkers ────────────────────────────────────────────────────────────
+.mypy_cache/
+.dmypy.json
+dmypy.json
+pyrightconfig.json
+
+# ── IDEs & Editors ───────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# ── Celery ───────────────────────────────────────────────────────────────────
+celerybeat-schedule
+celerybeat.pid
+
+# ── Misc scripts (dev utilities, not production code) ────────────────────────
+fix_*.py
+scripts/dev_*

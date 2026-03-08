@@ -1,0 +1,16 @@
+{
+    "css.lint.unknownAtRules": "ignore",
+    "python.defaultInterpreterPath": "${workspaceFolder}/backend/.venv/Scripts/python.exe",
+    "python.analysis.extraPaths": ["${workspaceFolder}/backend"],
+    "python.analysis.typeCheckingMode": "basic",
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "javascript",
+        "html": "HTML"
+    },
+    "editor.quickSuggestions": {
+        "strings": "on"
+    }
+}
